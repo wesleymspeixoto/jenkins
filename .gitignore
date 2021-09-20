@@ -1,0 +1,3 @@
+blueghost-jenkins.pem
+plugins.groovy
+script-install-docker-ec2.sh
