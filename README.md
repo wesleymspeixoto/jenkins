@@ -20,7 +20,7 @@ docker run --name docker-jenkins-dev \
     -v jenkins_backup:/srv/backup \
     e84fb6f8e91d
 
-docker inspect bfe94b78ef64 | grep backup
+docker inspect 1ed6c1198e9b | grep backup
 
 
 docker stop $(docker ps -a -q)
